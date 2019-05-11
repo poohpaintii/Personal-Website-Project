@@ -1,9 +1,39 @@
-.body {
-    display: block;
-    background-color: blueviolet;
-    margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100% ;
-	font: inherit;	  
+
+nav {
+    display: flex;
+    background-color:yellowgreen;
+    margin: 5px;
+    padding: 10px 5px;
+}
+div {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin: 0px 10px; 
+} 
+
+main {
+    display: flex;    
+}
+section {
+    font-size: 2em;
+    background-color: burlywood; 
+    height: 200px; 
+    margin: 5px 5px; 
+    padding: 10px;
+    width: 46%;
+}
+aside {
+    font-size: 1em;
+    margin: 5px 5px;
+    padding: 10px;
+    background-color: cadetblue;
+    width: 30%;
+}
+footer {
+    font-size: 1em; 
+    line-height: 50px;
+    margin: 5px 5px; 
+    padding: 10px;
+    background-color: yellowgreen;
+    text-align: center; 
 }
