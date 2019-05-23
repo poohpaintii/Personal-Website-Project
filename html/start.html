@@ -3,8 +3,19 @@
     <head>
         <meta charset="utf-8">
         <title> What's your name, friend?</title>
+        <link rel="stylesheet" href="/css/start.css" />
     </head>
     <body>
-        <div></div>
+            <div class="container" >
+                    <div class="hello">
+                      <p>What's your name, friend? <br>
+                        <input type="text" st-name="name"></p>  
+                    </div>
+                    <div class="output">  
+                            <p>Hello!</p> 
+                            <p st-name="name">{{name}}</p>
+                            <p>You can call me <br> CHOMPOO <br> This's my site <3 <br> you're wellcome...  </p>                      
+                    </div>
+            </div>
     </body>
 </html>

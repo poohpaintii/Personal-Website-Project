@@ -1,0 +1,44 @@
+
+.container {
+    width: 500px;
+    height: 750px;
+    margin: 0px auto;
+    background-color: bisque
+}
+
+input {
+    width: 300px;
+    margin: 30px 0px;
+    font-size: 1.5rem;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+input:focus {
+    outline-color: transparent;
+    outline-style: none;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+
+.hello {
+    margin: 0px auto;
+    padding-top: 10px;
+    text-align: left;
+    width: 300px;
+    font-size: 1.8rem;
+}
+
+.output {
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    padding-top: 10px;
+    border-radius: 20px;
+    background-color:#FFA07A;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
