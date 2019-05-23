@@ -1,6 +1,30 @@
+@media only screen and (max-width:970px){
+    .sidebar{
+                  display: none;
+              }
+  }
+@media only screen and (min-width:600px){
+    #content{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 970px;
+        display: grid;
+        grid-template-columns:repeat(auto-fill,1fr);
+        grid-auto-rows:minmax(100px,auto);
+        grid-gap: 10px;
+        grid-template-areas: 
+        "nav nav nav nav"
+        "aside aside aside bigad"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "ad1 ad1 ad2 ad2"
+        "ad3 ad3 ad4 ad4"
+        "footer footer footer footer";              
+          }
+}
 nav {
-    display: flex;
-    background-color:yellowgreen;
+    background-color:#A52A2A;
     margin: 5px;
     padding: 10px 5px;
 }
@@ -10,29 +34,19 @@ div {
     margin: 0px 10px; 
 } 
 
-main {
-    display: flex;    
-}
 section {
     font-size: 2em;
     background-color: burlywood; 
-    height: 200px; 
-    margin: 5px 5px; 
-    padding: 10px;
-    width: 46%;
 }
 aside {
     font-size: 1em;
-    margin: 5px 5px;
-    padding: 10px;
-    background-color: cadetblue;
-    width: 30%;
+    background-color: #FFA07A;
+
 }
 footer {
+    display: flex;
     font-size: 1em; 
     line-height: 50px;
-    margin: 5px 5px; 
-    padding: 10px;
-    background-color: yellowgreen;
+    background-color: #CD5C5C;
     text-align: center; 
 }
