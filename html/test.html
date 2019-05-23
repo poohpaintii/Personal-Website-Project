@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>What's your name, friend?</p>
+
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="Hello ! " value="Donald"><br>
+  <br>
+  <input type="submit" value="Enter">
+</form> 
+
+<script>
+function myFunction() {
+  var x = document.forms["frm1"];
+  var text = "";
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text + x.elements[i].value + "<br>";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
