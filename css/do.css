@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+h2 {
+    text-align: center;
+}
+
+form > div{
+    display: flexbox;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    background-color: brown;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.active{
+    background: rgb(247, 161, 168);
+    width: 100%;
+}
+/*hovering with css*/
+form:hover{
+    background: rgb(248, 212, 95);
+    width: 100%;
+}

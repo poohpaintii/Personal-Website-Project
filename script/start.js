@@ -1,9 +1,12 @@
-function myFunction() {
-    var x = document.forms["frm1"];
-    var text = "";
-    var i;
-    for (i = 0; i < x.length ;i++) {
-      text + x.elements[i].value + "<br>";
+function myPrompt(){
+    var txt;
+    var name = prompt("What's your name,friend?", "คนสวย");
+    if(name == null || name == ""){  
+      txt = "No problem And You can go to my site.";  
+    } else {  
+    txt = name ;
     }
-    document.getElementById("demo").innerHTML = text;
+  
+  document.getElementById("res").innerHTML = txt;
+  
   }

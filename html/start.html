@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Poohpaintii's site </title>
         <meta charset="utf-8">
-        <title> What's your name, friend?</title>
-        <link rel="stylesheet" href="/css/start.css" />
+        <link rel="stylesheet" href="/css/start.css">
+        <script src="/script/start.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-            <div class="container" >
-                    <div class="hello">
-                      <p>What's your name, friend? <br>
-                        <input type="text" st-name="name"></p>  
-                    </div>
-                    <div class="output">  
-                            <p>Hello!</p> 
-                            <p st-name="name">{{name}}</p>
-                            <p>You can call me <br> CHOMPOO <br> This's my site <3 <br> you're wellcome...  </p>                      
-                    </div>
-            </div>
+        <div class="container" >
+                <div class="hello">
+                    <button onclick="myPrompt()"> Click and Enter your name please.</button>
+                </div>
+                <div class="output"> 
+                    <p>Hello!</p>
+                    <p id="res"></p>
+                    <p>IT’S PLEASED TO MEET YOU! <br> You can call me <br> CHOMPOO <br> This's my site <3 <br> you're wellcome...  </p>
+                </div>
+                <div id="go"><a href="/html/index.html">Let's go</a></div>
     </body>
 </html>
